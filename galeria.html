@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .container-fluid {
+            background-color: #eee;
+        }
+        .row {
+            border: 1px solid #000;
+        }
+        .border-col{
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container-fluid">
+        <header>
+            <h1>Exemplo de Container</h1>
+        </header>
+        <div class="row">
+            <div class="col-12 border-col">
+                Coluna Única
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-3 border-col">
+                Coluna 1
+            </div>
+            <div class="col-4 border-col">
+                Coluna 2
+            </div>
+            <div class="col-5 border-col">
+                Coluna 3
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 border-col">
+                Coluna 1
+            </div>
+            <div class="col-2 border-col">
+                Coluna 2
+            </div>
+            <div class="col-4 border-col">
+                Coluna 3
+            </div>
+            <div class="col-3 border-col">
+                Coluna 4
+            </div>
+            <div class="col-1 border-col">
+                Coluna 5
+            </div>
+        </div>
+        <div class="row row-cols-2">
+            <div class="col border-col">Teste</div>
+            <div class="col border-col">Teste</div>
+            <div class="col border-col">Teste</div>
+            <div class="col border-col">Teste</div>
+        </div>
+    </main>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
